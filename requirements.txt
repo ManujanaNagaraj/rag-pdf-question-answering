@@ -1,0 +1,14 @@
+# ============================================
+# RAG PDF Question Answering System
+# Requirements for PDF Text Extraction Module
+# ============================================
+
+# PDF Processing Library
+# PyPDF2 is used for reading and extracting text from PDF files
+PyPDF2==3.0.1
+
+# Future dependencies (to be added in next phases):
+# - LangChain or similar for text chunking
+# - sentence-transformers for embeddings
+# - chromadb or faiss for vector storage
+# - openai or huggingface for LLM integration
