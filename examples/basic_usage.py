@@ -5,6 +5,12 @@ This script demonstrates how to use all three main functions
 of the PDF extraction module.
 """
 
+import os
+import sys
+
+# Add parent directory to path to import src module
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.pdf_extractor import (
     extract_text_from_pdf,
     extract_text_by_pages,
